@@ -18,8 +18,6 @@ export class App extends Component {
     number: '',
   };
 
-  // formSubmitHandler = data => {};
-
   addContact = ({ name, number }) => {
     const contact = {
       id: nanoid(),
